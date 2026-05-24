@@ -38,11 +38,11 @@ const Navbar = () => {
             </nav>
 
             <div className={toggleNavbar ? "block" : "hidden"} >
-                <div className="fixed select-none bg-white w-full h-full sm:hidden flex flex-col items-center">
+                <div className="fixed select-none bg-white w-full h-full sm:hidden flex flex-col items-center z-50">
                     <div className="flex items-center w-full py-12 justify-between px-[13%]">
                         <Link draggable={false} className="flex font-bold text-lg text-2 gap-x-2" href="/">
                             <Image draggable={false} src={logo} width={20} alt="logo"></Image>
-                            RianArchive
+                            RianArchive.
                         </Link>
                         <div onClick={() => setToggleNavbar(toggleNavbar ? false : true)}>
                             <Image draggable={false} src={humberger_active} width={25} alt="memek"></Image>
