@@ -13,7 +13,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="bg-white/10 z-50 select-none rounded-[15] flex justify-between py-4 px-10 sm:px-5 items-center backdrop-blur-xs fixed text-2 font-medium shadow-xl my-8 inset-x-0 mx-auto w-[90%] sm:w-150 z-0">
+            <nav className="bg-white/10 z-50 select-none rounded-[15] flex justify-between py-4 px-10 sm:px-5 items-center backdrop-blur-xs fixed text-2 font-medium shadow-xl my-8 inset-x-0 mx-auto w-[90%] sm:w-150">
                 <Link className="flex font-bold text-lg text-2 gap-x-2" href="/">
                     <Image draggable={false} className="pointer-events-none" src={logo} width={20} alt="logo"></Image>
                     RianArchive.
