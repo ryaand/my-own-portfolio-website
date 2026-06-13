@@ -5,8 +5,8 @@ import MyProjectButton from '../Utilities/MyProjectButton';
 
 const HeroSection = () => {
     return (
-        <div className='flex-col w-screen md:justify-center md:flex-row-reverse md:px-[10%] flex items-center justify-center h-screen gap-10'>
-            <div>
+        <div className='flex-col w-screen h-screen md:justify-center md:flex-row-reverse md:px-[10%] flex items-center justify-center gap-10'>
+            <div className=''>
                 <Image alt='' width={350} draggable={false} src={furina1} className='md:w-125 pointer-events-none'></Image>
             </div>
             <div className='w-full md:w-1/2 md:items-baseline flex-col flex items-center gap-1.5'>
