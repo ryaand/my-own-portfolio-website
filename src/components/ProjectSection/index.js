@@ -5,7 +5,7 @@ import Project3 from "../Utilities/Project/project3";
 const ProjectSection = () => {
     return (
         <div className="flex md:px-[10%] flex-col w-screen md:justify-center pt-10 lg:pt-20">
-            <div className="ml-10 pl-2 font-bold text-2 border-l-[4px] border-3">
+            <div className="ml-10 pl-2 font-bold text-primary border-l-[4px] border-3">
                 Project
             </div>
             <div className="flex justify-center p-10">
