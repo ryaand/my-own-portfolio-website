@@ -18,23 +18,15 @@ const Navbar = () => {
                     <Image draggable={false} className="pointer-events-none" src={logo} width={20} alt="logo"></Image>
                     RianArchive.
                 </Link>
-
                 <div className="gap-5 hidden sm:flex text-sm">
                     <Link draggable={false} href="/">Home</Link>
                     <Link draggable={false} href="/about">About</Link>
                     <Link draggable={false} href="/contact">Contact</Link>
                     <MyProjectButton></MyProjectButton>
                 </div>
-
                 <div onClick={() => setToggleNavbar(toggleNavbar ? false : true)} className="sm:hidden">
-                    <Image draggable={false} src={humberger} width={25
-
-                    } alt="humberger">
-
-                    </Image>
+                    <Image draggable={false} src={humberger} width={25} alt="humberger" className="select-none touch-callout-none"></Image>
                 </div>
-
-
             </nav>
 
             <div className={toggleNavbar ? "block" : "hidden"} >
@@ -44,8 +36,8 @@ const Navbar = () => {
                             <Image draggable={false} src={logo} width={20} alt="logo"></Image>
                             RianArchive.
                         </Link>
-                        <div onClick={() => setToggleNavbar(toggleNavbar ? false : true)}>
-                            <Image draggable={false} src={humberger_active} width={25} alt="memek"></Image>
+                        <div onMouseDown = {() => setToggleNavbar(toggleNavbar ? false : true)}>
+                            <Image draggable={false} src={humberger_active} width={25} alt="memek" className="pointer-events-none"></Image>
                         </div>
                     </div>
                     <div className="flex-col divide-y flex w-full px-[12%]">
@@ -53,7 +45,6 @@ const Navbar = () => {
                         <Link draggable={false} className="py-3 pl-2" href="/">Home</Link>
                         <Link draggable={false} className="py-3 pl-2" href="/contact">Contact</Link>
                         <div className="py-3 pt-5 pl-1"><MyProjectButton></MyProjectButton></div>
-                        
                     </div>
                 </div>
             </div>
