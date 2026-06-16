@@ -1,6 +1,6 @@
 import { Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Utilities/Navbar"
+import Navbar from "@/components/Utilities/Navbar/NAVBAR JEMBODDDDD"
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
