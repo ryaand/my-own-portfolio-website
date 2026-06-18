@@ -6,12 +6,12 @@ import ToolsAndLang from "@/components/ToolsAnfLangSection";
 
 export default function Home() {
   return (
-    <section className="w-full bg-center h-940.5 bg-cover flex-col justify-center">
+    <section className="w-full bg-center bg-cover flex-col justify-center">
       <HeroSection></HeroSection>
       <AboutSection></AboutSection>
-      <ProjectSection></ProjectSection>
       <SpecialtiesSection></SpecialtiesSection>
       <ToolsAndLang></ToolsAndLang>
+      <ProjectSection></ProjectSection>
     </section>
   );
 }

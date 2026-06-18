@@ -12,8 +12,16 @@ const FocusingSection = () => {
                     <div className="">
                         <Image src={furina2} draggable={false} width={250} className="py-10 lg:w-90 -rotate-15 pointer-events-none" alt=""></Image>
                     </div>
-                    <div className="px-15 text-center lg:text-xl md:text-right md:w-3/4 text-primary">
-                        Fokus utama saya adalah membangun arsitektur front-end yang skalabel menggunakan ekosistem Next.js dan Tailwind CSS. Saya memastikan setiap baris kode yang ditulis tidak hanya menghasilkan visual yang presisi, tetapi juga mengutamakan optimasi kecepatan akses, skor Core Web Vitals yang tinggi, dan struktur yang ramah SEO. Bagi saya, performa adalah fondasi dari pengalaman pengguna yang superior.
+                    <div className="px-15 text-center lg:text-xl md:text-right md:w-3/4 text-primary font-extralight">
+                        <p className="text-[17px]">
+                            I am an Informatics Engineering student at Politeknik Negeri Malang with a strong interest in Front-End Development. I am particularly drawn to minimalist, clean, and user-focused design approaches that emphasize clarity and usability.
+                            <br></br>
+                            <br></br>
+                            Currently, I am continuously developing my skills in building digital interfaces that are not only functional but also intuitive and enjoyable to use. I believe that great technology should solve problems in a simple and understandable way.
+                            <br></br>
+                            <br></br>
+                            Moto: simple, minimalist.
+                        </p>
                     </div>
                 </div>
             </div>

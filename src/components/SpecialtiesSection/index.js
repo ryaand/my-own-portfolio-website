@@ -6,7 +6,7 @@ import UiUx from "@/public/Images/layer.svg"
 const SpecialtiesSection = () => {
     return (
         <section className="mx-auto max-w-360">
-            <div className="pt-15 flex-col items-center">
+            <div className="pt-5 flex-col items-center">
                 <div className="flex flex-col items-center pb-5 pt-15">
                     <div className="font-bold text-primary text-xl">My Spescialties</div>
                     <div className="font-extralight text-gray-500">I am competent at</div>
